@@ -6,7 +6,7 @@ function threeSum(arr, target) {
 			for(let k=j+1;k<n;k++){
 			let sum = arr[i]+arr[j]+arr[k]-target;
 				if(sum>=0){
-					min=sum
+					min=arr[i]+arr[j]+arr[k]
 				}
 			}
 		}
